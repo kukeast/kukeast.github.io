@@ -4,21 +4,12 @@ layout: default
 
 <div class="post">
   <div class="post-info">
-    <span>Written by</span>
-    {% if page.author %}
-        {{ page.author }}
-    {% else %}
-        {{ site.author.name }}
-    {% endif %}
-
     {% if page.date %}
-      <br>
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      <time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
     {% endif %}
   </div>
 
   <h1 class="post-title">{{ page.title }}</h1>
-  <div class="post-line"></div>
 
   {{ content }}
 </div>
@@ -29,11 +20,11 @@ layout: default
 
 <div class="pagination">
   {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow long"><span class="arrow-icon">&#x2191;</span> {{ page.next.title | prepend: site.baseurl }}</a>
   {% endif %}
   {% if page.previous.url %}
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow long"><span class="arrow-icon">&#x2193;</span> {{ page.previous.title | prepend: site.baseurl }}</a>
   {% endif %}
 
-  <a href="#" class="top">Top</a>
+  <!--<a href="#" class="top">Top</a>-->
 </div>

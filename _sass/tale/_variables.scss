@@ -1,20 +1,35 @@
 // Colors
-$default-color: #555 !default;
-$default-shade: #353535 !default;
-$default-tint: #aaa !default;
+$default-color: #E8EAED !default;
+$default-shade: #ffffff !default;
+$default-tint: #A2A7AD !default;
 $grey-1: #979797 !default;
-$grey-2: #e5e5e5 !default;
+$grey-2: #282828 !default;
 $grey-3: #f9f9f9 !default;
 $white: #fff !default;
 $blue: #4a9ae1 !default;
 $shadow-color: rgba(0, 0, 0, .2) !default;
 $code-color: #bf616a !default;
+$bg-black: #151617 !default;
+$bg-hover: #1B1C1E !default;
 
 // Fonts
+$open-arrow: 'open-arrow', Helvetica, sans-serif;
 $serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif !default;
 $serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif !default;
-$sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default;
+$sans-serif: 'Spoqa Han Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default;
 $monospaced: Menlo, Monaco, monospace !default;
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@font-face {
+    font-family: 'open-arrow';
+    src: url('font/OpenArrow-Regular.eot') format('embedded-opentype'),
+         url('font/OpenArrow-Regular.woff2') format('woff2'),
+         url('font/OpenArrow-Regular.woff') format('woff'),
+         url('font/OpenArrow-Regular.otf') format('opentype'),
+         url('font/OpenArrow-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+2190-21ff;
+  }
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;

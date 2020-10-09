@@ -1,10 +1,6 @@
 .pagination {
-  border-top: .5px solid $grey-2;
-  font-family: $serif-secondary;
-  padding-top: 2rem;
-  position: relative;
+  padding: 50px;
   text-align: center;
-
   span {
     color: $default-shade;
     font-size: 1.1rem;
@@ -23,10 +19,7 @@
   }
 
   .arrow {
-    @include transition(all .3s ease-out);
     color: $default-color;
-    position: absolute;
-
     &:hover,
     &:focus {
       opacity: .6;
@@ -34,11 +27,17 @@
     }
   }
 
-  .left {
-    left: 0;
+  .left, .right {
+    text-align: left;
+    display: inline-block;
+    padding: 30px;
+    background-color: $bg-hover;
+    margin-bottom: 10px;
+      .arrow-icon{
+        font-family: $open-arrow;
+      }
   }
-
-  .right {
-    right: 0;
+  .long{
+    display: block;
   }
 }

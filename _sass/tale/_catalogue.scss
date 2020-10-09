@@ -1,15 +1,22 @@
 .catalogue {
   &-item {
     border-bottom: 1px solid $grey-2;
+    background-color: $bg-black;
     color: $default-color;
     display: block;
-    padding: 2rem 0;
+    padding: 50px 0;
+    margin: 0 50px;
 
-    &:hover .catalogue-line,
-    &:focus .catalogue-line {
-      width: 5rem;
+    &:hover,
+    &:focus {
+      background-color: $bg-hover;
+      border-bottom: 1px solid $bg-black;
+      padding: 50px;
+      margin: 0 ; 
     }
-
+    &:active{
+      background-color: #18191B;
+    }
     &:last-child {
       border: 0;
     }
@@ -17,23 +24,24 @@
 
   &-time {
     color: $default-tint;
-    font-family: $serif-secondary;
-    letter-spacing: .5px;
+    font-family: $sans-serif;
+    font-size: 16px;
+    font-weight: 300;
   }
 
   &-title {
     color: $default-shade;
     display: block;
     font-family: $sans-serif;
-    font-size: 2rem;
+    font-size: 40px;
     font-weight: 700;
-    margin: .5rem 0;
+    line-height: 130%;
+    margin: 10px 0 0 0;
   }
-
-  &-line {
-    @include transition(all .3s ease-out);
-    border-top: .2rem solid $default-shade;
-    display: block;
-    width: 2rem;
+  &-des {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 160%;
+    margin: 20px 0 0 0;
   }
 }

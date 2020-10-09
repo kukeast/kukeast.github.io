@@ -4,7 +4,7 @@ code {
 }
 
 code {
-  background-color: $grey-3;
+  background-color: #111112;
   border-radius: 3px;
   color: $code-color;
   font-size: 85%;
@@ -12,7 +12,7 @@ code {
 }
 
 pre {
-  margin: 0 0 1rem;
+  margin: 0 0 16px;
 }
 
 pre code {
@@ -23,11 +23,11 @@ pre code {
 }
 
 .highlight {
-  background-color: $grey-3;
+  background-color: #111112;
   border-radius: 3px;
   line-height: 1.4;
-  margin: 0 0 1rem;
-  padding: 1rem;
+  margin: 0 0 16px;
+  padding: 16px;
 
   pre {
     margin-bottom: 0;
