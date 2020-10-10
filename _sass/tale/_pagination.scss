@@ -41,3 +41,8 @@
     display: block;
   }
 }
+@media (max-width: 600px) {
+  .pagination {
+    padding: 20px;
+  } 
+}

@@ -58,18 +58,19 @@
 
 @media (max-width: 600px) {
   .post {
-    padding: 30px;
+    padding: 20px;
     &-info {
-      font-size: 16px;
+      font-size: 14px;
+      margin-top: 3px
     }
     &-title {
-      font-size: 34px;
-      margin: 8px 0 14px 0;
+      font-size: 30px;
+      margin: 6px 0 12px 0;
     }
 
     p {
       margin: 0 0 30px;
-      font-size: 18px;
+      font-size: 17px;
     }
 
     img {
