@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Example Content"
+title: "잘 만들어서 잘 알려주기"
 author: "Chester"
 tags: Example
+excerpt: 제품을 잘 만드는 것 만큼 사용자들에게 잘 알려주는 것도 어려운 일이다. 업데이트 뉴스 개선을 하면서 잘 알려주기 위해서 덜 강조했던 이유에 대한 글이다.
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt ornare nibh, non elementum augue tempus eget. Pellentesque tempus scelerisque iaculis. Nullam interdum ultricies nibh quis sollicitudin. Donec ornare fermentum facilisis. Ut at sem ac sem imperdiet varius a eget tortor. Nam eu augue eget orci semper maximus in eget augue. Mauris ornare, nisl ut suscipit consectetur, mi quam interdum tellus, at rutrum quam eros ultrices mi.

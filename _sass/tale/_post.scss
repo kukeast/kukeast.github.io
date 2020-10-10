@@ -55,3 +55,30 @@
     margin: 0;
   }
 }
+
+@media (max-width: 600px) {
+  .post {
+    padding: 30px;
+    &-info {
+      font-size: 16px;
+    }
+    &-title {
+      font-size: 34px;
+      margin: 8px 0 14px 0;
+    }
+
+    p {
+      margin: 0 0 30px;
+      font-size: 18px;
+    }
+
+    img {
+      margin: 0 auto 16px;
+    }
+
+    img + em {
+      font-size: 14px;
+    }
+  }
+}
+
